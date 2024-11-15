@@ -3,15 +3,19 @@
     "version": "1.0.0",
     "main": "node_modules/expo/AppEntry.js",
     "scripts": {
-      "start": "expo start",
-      "android": "expo start --android",
-      "ios": "expo start --ios",
-      "web": "expo start --web"
+        "start": "expo start",
+        "android": "expo start --android",
+        "ios": "expo start --ios",
+        "web": "expo start --web"
     },
     "dependencies": {
-      "expo": "~49.0.0",
-      "react": "18.2.0",
-      "react-native": "0.72.4"
+        "@babel/plugin-transform-class-properties": "^7.25.9",
+        "@babel/plugin-transform-nullish-coalescing-operator": "^7.25.9",
+        "@babel/plugin-transform-optional-chaining": "^7.25.9",
+        "expo": "~49.0.0",
+        "glob": "^11.0.0",
+        "react": "18.2.0",
+        "react-native": "0.72.4",
+        "rimraf": "^6.0.1"
     }
-  }
-  
+}
